@@ -84,6 +84,23 @@ age : 18,
 cgpa : 9,
 isPass : true,
 };
+
+//To assign new value in objects
+student["age"] = student["age"] + 1;
+
+student["name"] = "rahul";
+console.log(student["name"]);
+
 //To access key there are two types obj.key or obj["key"]
 console.log(student["age"]);
 console.log(student.cgpa);
+
+const product = {
+name : "Parker Standard",
+rating : 4,
+price : 270,
+offer : 5,
+};
+
+console.log(product);
+console.log(typeof product["rating"]);
