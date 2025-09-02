@@ -5,7 +5,7 @@ console.log("Learning JavaScript");
 
 //Variables
 fullName = "Tony Stark";
-age=24;
+FULLNAME = "Apple";
 price=99.99;
 radius = 14;
 x = null; // no value of null
@@ -24,3 +24,16 @@ isFollow = false;
 //Do not use "fullName" this
 //Use direct fullName
 console.log(isFollow);
+console.log(FULLNAME);
+
+//This will not work reserved value
+//console = "apna";
+//console.log(console);
+
+Console ="apna";
+console.log(Console);
+
+//We will use let , const , var not to re-declared things
+let name = "Gautam";
+let age = 25;
+console.log(name);
