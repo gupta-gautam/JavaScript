@@ -3,8 +3,8 @@ console.log("hello world!");
 
 
 //Arithmetic Operators
-let a = 5;
-let b = 2;
+let a = 5; // number
+let b = "5"; //string -> number
 
 console.log("a = ",a , "& b =" , b);
 console.log("a + b = ", a + b );
@@ -30,3 +30,10 @@ console.log("a ** b = ", a ** b ); // 5^2 = 25
   console.log(--a);
    console.log("--aa =",a--);
     console.log(a);
+
+ // Assignment Operators
+// a+=4; // a = a + 4;
+// console.log("a = ",a); //9
+
+ //Comparison Operators
+ console.log("a!==b", a!==b); //true
