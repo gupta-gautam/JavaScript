@@ -21,8 +21,11 @@ console.log("a ** b = ", a ** b ); // 5^2 = 25
 //Unary Operators
  console.log("a++ = ",a++); //5
  console.log("a = " ,a); //6
+// a++ pehle a++ dalkr a ki value 5 print hogi then console.log(a) dalkr 6 print hoga baad mai agli line se bdhega
+
 
  console.log(++a);
+ // ++a  pehle 5 ki value change hokr 6 bnegi then 6 ki value print hogi same in decrement
 
   console.log(--a);
    console.log("--aa =",a--);
