@@ -54,3 +54,52 @@ console.log("a ** b = ", a ** b ); // 5^2 = 25
 
 // Logical NOT
 console.log("!( a < b ) =", !(a < b)); // False but gives True
+
+
+
+// Conditional Statements
+
+let age = 25;
+
+if(age >= 18){
+console.log("vote");
+}
+else{
+console.log("not vote");
+}
+
+let mode = "light";
+let color;
+
+if(mode === "dark"){
+color = "black";
+}else{
+color = "white";
+}
+
+console.log(color);
+
+// Odd or Even
+let num = 11;
+if(num % 2 === 0){
+console.log("even");
+}else{
+console.log("odd");
+}
+
+// Syntax -> Rules
+
+let background = "blue";
+let colour;
+
+if(background === "dark"){
+colour = "black";
+} else if (background === "blue"){
+colour = "blue";
+} else if ( background === "pink"){
+colour = "pink";
+} else {
+colour = "white"
+}
+
+console.log(colour);
