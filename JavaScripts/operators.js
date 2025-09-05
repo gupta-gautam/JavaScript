@@ -37,3 +37,20 @@ console.log("a ** b = ", a ** b ); // 5^2 = 25
 
  //Comparison Operators
  console.log("a!==b", a!==b); //true
+
+ // Logical Operators
+ let c = 6;
+ let d = 5;
+
+ let cond1 = c > d ; //true
+ let cond2 = c===6; //true
+ //Logical AND
+ console.log("cond1 && cond2 =", cond1 && cond2);
+
+ // we can write directly console.log( a > b && a===b);
+
+//Logical OR
+ console.log(c < d || c===6);
+
+// Logical NOT
+console.log("!( a < b ) =", !(a < b)); // False but gives True
