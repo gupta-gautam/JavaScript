@@ -17,3 +17,13 @@ console.log("a % b = ", a % b );
 
 // Exponentiation  for eg:- a ** b ,  2 ** 3 = 8
 console.log("a ** b = ", a ** b ); // 5^2 = 25
+
+//Unary Operators
+ console.log("a++ = ",a++); //5
+ console.log("a = " ,a); //6
+
+ console.log(++a);
+
+  console.log(--a);
+   console.log("--aa =",a--);
+    console.log(a);
