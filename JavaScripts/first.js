@@ -104,3 +104,14 @@ offer : 5,
 
 console.log(product);
 console.log(typeof product["rating"]);
+
+const profile = {
+name : "Gautam",
+isFollow : true,
+followers : 300,
+posts : 2,
+bio : "Google-Intern",
+}
+
+console.log(profile);
+console.log(typeof profile["bio"]);
