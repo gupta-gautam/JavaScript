@@ -103,3 +103,14 @@ colour = "white"
 }
 
 console.log(colour);
+
+//Ternary Operators
+// a ? b : c
+
+let year = 16;
+
+let result = year >= 18 ? "adult" : "not adult";
+console.log(result);
+
+// or we can write
+// age >= 18 ? console.log("adult:) : console.
