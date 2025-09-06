@@ -73,8 +73,13 @@ let userNum = prompt("Guess the game number :");
 
 while(userNum != gameNum){ // game
 
-userNum = prompt("You entered wrong number. Guess again :");
+userNum =  prompt("You entered wrong number. Guess again :");
 
 }
 
 console.log("congratulations you entered the right number");
+
+
+// Strings
+let string = "gautam";
+console.log(string[0]);
