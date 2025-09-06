@@ -109,8 +109,9 @@ console.log(colour);
 
 let year = 16;
 
-let result = year >= 18 ? "adult" : "not adult";
+let result = year >= 18 ? "adult" : "not adult"; // simpler , compact if-else
 console.log(result);
 
 // or we can write
-// age >= 18 ? console.log("adult:) : console.
+// age >= 18 ? console.log("adult") : console.log("non adult");
+
