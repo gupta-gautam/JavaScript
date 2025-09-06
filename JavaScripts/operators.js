@@ -115,3 +115,50 @@ console.log(result);
 // or we can write
 // age >= 18 ? console.log("adult") : console.log("non adult");
 
+// Switch Statements
+const expr = "Papayas";
+switch (expr) {
+  case "Oranges":
+    console.log("Oranges are $0.59 a pound.");
+    break;
+  case "Mangoes":
+  case "Papayas":
+    console.log("Mangoes and papayas are $2.79 a pound.");
+    // Expected output: "Mangoes and papayas are $2.79 a pound."
+    break;
+  default:
+    console.log(`Sorry, we are out of ${expr}.`);
+}
+
+// alert("hello!"); // one time pop-up
+
+//let name = prompt("hello"); temporary way we can give input in prompt
+// console.log(name);
+
+
+let number = prompt("enter a number");
+console.log(num);
+
+if(number % 5 === 0 ){
+console.log(number,"  is a multiple of 5");
+}else{
+console.log(number," is not a multiple of 5");
+}
+
+
+let score = prompt("enter your score");
+console.log(score);
+let grade;
+
+if(score >= 90 && score <= 100){
+grade = "A";
+}else if(score >=70 && score <=89){
+grade = "B";
+}else if(score >=60 && score <=69){
+grade = "C";
+}else if(score >=50 && score <=59){
+grade = "D";
+}else{
+grade = "F";
+}
+console.log(grade);
