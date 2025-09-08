@@ -83,3 +83,7 @@ console.log("congratulations you entered the right number");
 // Strings
 let string = "gautam";
 console.log(string[0]);
+
+
+// Template Literals
+let specialString = 'This is a template';
