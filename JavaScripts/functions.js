@@ -118,3 +118,26 @@ return  prev > curr ? prev :curr;
 console.log(output);
 
 //Lets's Practice
+let marks = [87,93,97,80,86];
+let highest = marks.filter((val)=>{
+return val > 90;
+});
+console.log(highest);
+
+
+let n = prompt("enter a number");
+let array2 = [];
+for(let i=1;i<=n;i++){
+array2[i-1] = i; //1[0] , 2[1] , 3[2] , 4[3]
+}
+console.log(array2);
+
+let add = array2.reduce((previous,current)=>{
+return previous + current;
+});
+console.log(add);
+
+let multi = array2.reduce((previous,current)=>{
+return previous * current;
+});
+console.log(multi);
