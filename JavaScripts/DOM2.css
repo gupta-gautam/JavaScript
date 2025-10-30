@@ -1,0 +1,11 @@
+*{
+background-color: turquoise;
+}
+
+#box{
+height:100px;
+width:100px;
+background-color:dodgerblue;
+border:1px solid black;
+color:white;
+}

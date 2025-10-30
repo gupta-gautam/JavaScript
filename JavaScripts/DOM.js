@@ -43,4 +43,9 @@ console.log(div.innerHTML);
 let h = document.querySelector("h3");
 console.log(h);
 
+console.log(h.innerText); // khali chiz aayi isme
+
+console.log(h.textContent); // visibility hidden thi isliye text content daalne se aaya
+
+
 
