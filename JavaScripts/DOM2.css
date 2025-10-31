@@ -1,11 +1,19 @@
-*{
+body{
 background-color: turquoise;
 }
 
-#box{
-height:100px;
-width:100px;
+div{
+height:300px;
+width:200px;
 background-color:dodgerblue;
 border:1px solid black;
 color:white;
+}
+
+.content{
+color: red;
+}
+
+.newClass{
+background-color:green;
 }
